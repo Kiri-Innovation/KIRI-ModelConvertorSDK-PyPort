@@ -1,6 +1,6 @@
 # KIRI 3DModel file formats convertor
 
-## Caution
+## State
 
 This convertor only works on .OBJ file as input. The following is a list of file formats available for converting:
 
