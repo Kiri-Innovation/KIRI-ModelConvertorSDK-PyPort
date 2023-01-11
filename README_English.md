@@ -115,4 +115,4 @@ arguments:
 | save_name | output file name, no file extension |
 | save_path | output file path |
 
-⚠️ Note：OBJ、texture file、MTL file better to put in the same root，otherwise the file path need to be corrected in obj and mtl files
+⚠️ Note：OBJ、texture file、MTL file are better to store in the same root，otherwise the file path need to be corrected in obj and mtl files
