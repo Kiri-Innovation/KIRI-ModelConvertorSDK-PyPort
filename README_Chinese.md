@@ -77,7 +77,7 @@ except SDKError as e:
 | AccountNotExistError | 账号不存在 | 检查账号信息是否正确 |
 | AuthenticationError | 验证的账号或密码错误 | 检查账号信息是否正确 |
 | ExhaustedError | 接口的调用次数用尽 | 联系开发人员 |
-| SDKError | 接口的调用次数用尽 | 初始化失败, 联系开发人员 |
+| SDKError | SDK 初始化失败 | 初始化失败, 联系开发人员 |
 
 <br/>
 
