@@ -31,7 +31,6 @@ If you are using Apple Silicon, please select:<br/>
 
 ### 2. Usage
 
-在使用转换 API 前需要先初始化 SDK, 此步需提供对应的平台账号和密码进行鉴权
 Please initialize the SDK before using KIRI 3DModel file formats convertor API. 
 
 Pass the authentication with your account and password and then you will be able to call the API
@@ -54,13 +53,13 @@ try:
         password='1234567'
     )
 except AccountNotExistError:
-    print('账号不存在!') 
+    print('Account does not exist!') 
 except AuthenticationError:
-    print('账号密码错误!')  # Account or password is incorrect
+    print('Account or password is incorrect!') 
 except ExhaustedError:
-    print('接口调用次数用尽!') 
+    print('Quota used up!') 
 except SDKError as e:
-    print(f'SDK 异常: {e}')
+    print(f'SDK error: {e}')
 ```
 
 arguments:
@@ -98,11 +97,11 @@ try:
     )
 
     if result == kiri_convert.SUCCESS:
-        print('转换完毕!')
+        print('Converting done!')
     else:
-        print('转换失败!')
+        print('Converting failed!')
 except SDKError as e:
-    print(f'SDK 异常: {e}')
+    print(f'SDK error: {e}')
 ```
 
 arguments:
